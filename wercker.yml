@@ -1,0 +1,7 @@
+box: golang:latest
+build:
+  steps:
+    - arjen/hugo-build:
+        version: "HEAD"
+        theme: hugo-universal-theme
+        flags: --buildDrafts=true
